@@ -15,7 +15,6 @@ do {//Выводим первый вопрос
     }
 } while (!ok);
 // answers.push((event == 1) ? works.a1 : works.a2);
-
 switch (event) {
     case 1: // Первое действие  - если в первом окне ввели 1 то открываем серию окон - окно 2
         answers.push(works.a1);
